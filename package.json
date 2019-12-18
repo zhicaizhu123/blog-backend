@@ -1,0 +1,32 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "个人\u001b[D\u001b[D\u001b[DZCoder\u001b[C\u001b[D个人博客后台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "keywords": [
+    "koa",
+    "blog"
+  ],
+  "author": "zhicaizhu!@#@126.com",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.7.11",
+    "parameter": "^3.6.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "nodemon": "^1.19.4"
+  }
+}
